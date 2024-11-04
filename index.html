@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Catatan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>Aplikasi Catatan</h1>
+            <button onclick="toggleDarkMode()">Mode Gelap/Terang</button>
+            <input type="text" id="search-bar" placeholder="Cari catatan...">
+        </header>
+        
+        <div class="note-creation">
+            <textarea id="note-content" placeholder="Tulis catatan..."></textarea>
+            <button id="add-note-btn">Tambah Catatan</button>
+        </div>
+        
+        <div class="notes-container" id="notes-container">
+            <!-- Daftar Catatan akan ditampilkan di sini -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
